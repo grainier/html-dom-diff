@@ -2,6 +2,7 @@ import com.gaurav.tree.ArrayListTree;
 import com.gaurav.tree.Tree;
 import org.jsoup.nodes.Node;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Collection;
 
@@ -12,7 +13,7 @@ import java.util.Collection;
  * Time: 8:43 AM
  * To change this template use File | Settings | File Templates.
  */
-public class HTMLDom {
+public class HTMLDom implements Serializable {
     private String identifier;
     private Tree<Node> rootDom;
     private ArrayList<Tree<Node>> iframes;

@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a81d1d4-9168-4519-ac89-42a4224c6799" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DomSerializer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/HTMLDom.java" afterPath="$PROJECT_DIR$/src/HTMLDom.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DomDiff.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -21,7 +20,7 @@
     <file path="$PROJECT_DIR$/../TrendingFrontEnd/FrontEnd/NowTrending/js/trending-new.js" changelist="0a81d1d4-9168-4519-ac89-42a4224c6799" time="1379506776306" ignored="false" />
     <file path="$PROJECT_DIR$/../TrendingFrontEnd/FrontEnd/NowTrending/css/livefeed.css" changelist="0a81d1d4-9168-4519-ac89-42a4224c6799" time="1379500381331" ignored="false" />
     <file path="$PROJECT_DIR$/../TrendingFrontEnd/FrontEnd/NowTrending/css/wifi.css" changelist="0a81d1d4-9168-4519-ac89-42a4224c6799" time="1379655806103" ignored="false" />
-    <file path="/HTMLDom.java" changelist="0a81d1d4-9168-4519-ac89-42a4224c6799" time="1379481871295" ignored="false" />
+    <file path="/HTMLDom.java" changelist="0a81d1d4-9168-4519-ac89-42a4224c6799" time="1379675425278" ignored="false" />
     <file path="/livefeed.js" changelist="0a81d1d4-9168-4519-ac89-42a4224c6799" time="1379657820612" ignored="false" />
     <file path="$PROJECT_DIR$/../KohlsREST/kohlsrest/src/main/java/com/kohls/dal/beans/TrendingProduct.java" changelist="0a81d1d4-9168-4519-ac89-42a4224c6799" time="1379498091983" ignored="false" />
     <file path="$PROJECT_DIR$/../KohlsREST/kohlsrest/src/main/java/com/kohls/dal/external/TrendingProductDetailsFinder.java" changelist="0a81d1d4-9168-4519-ac89-42a4224c6799" time="1379504691997" ignored="false" />
@@ -41,6 +40,7 @@
     <file path="/wifi.css" changelist="0a81d1d4-9168-4519-ac89-42a4224c6799" time="1379655806103" ignored="false" />
     <file path="$PROJECT_DIR$/../KohlsREST/kohlsrest/src/main/java/com/kohls/dal/controller/TrendingProductController.java" changelist="0a81d1d4-9168-4519-ac89-42a4224c6799" time="1379654143616" ignored="false" />
     <file path="/TrendingProductController.java" changelist="0a81d1d4-9168-4519-ac89-42a4224c6799" time="1379654104005" ignored="false" />
+    <file path="/DomSerializer.java" changelist="0a81d1d4-9168-4519-ac89-42a4224c6799" time="1379676755731" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,20 +130,29 @@
       <file leaf-file-name="HTMLDom.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HTMLDom.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="45" selection-start="1024" selection-end="1024" vertical-scroll-proportion="0.0">
+            <state line="19" column="92" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1693#1699#0" expanded="true" />
-                <element signature="e#1750#1756#0" expanded="true" />
+                <element signature="e#1746#1752#0" expanded="true" />
+                <element signature="e#1803#1809#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="DomSerializer.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DomSerializer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="56" selection-start="645" selection-end="645" vertical-scroll-proportion="0.7467533">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="61" selection-start="85" selection-end="85" vertical-scroll-proportion="0.25974026">
+            <state line="8" column="8" selection-start="76" selection-end="76" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -187,8 +196,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/DomDiff.java" />
-        <option value="$PROJECT_DIR$/src/HTMLDom.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/HTMLDom.java" />
+        <option value="$PROJECT_DIR$/src/DomSerializer.java" />
       </list>
     </option>
   </component>
@@ -553,13 +563,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DomDiff.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -572,8 +575,8 @@
         <state line="57" column="16" selection-start="1531" selection-end="1531" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1693#1699#0" expanded="true" />
-            <element signature="e#1750#1756#0" expanded="true" />
+            <element signature="e#1746#1752#0" expanded="true" />
+            <element signature="e#1803#1809#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -649,20 +652,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="8" selection-start="76" selection-end="76" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/HTMLDom.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="45" selection-start="1024" selection-end="1024" vertical-scroll-proportion="0.0">
+        <state line="19" column="92" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1693#1699#0" expanded="true" />
-            <element signature="e#1750#1756#0" expanded="true" />
+            <element signature="e#1746#1752#0" expanded="true" />
+            <element signature="e#1803#1809#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/DomSerializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="61" selection-start="85" selection-end="85" vertical-scroll-proportion="0.25974026">
+        <state line="23" column="56" selection-start="645" selection-end="645" vertical-scroll-proportion="0.7467533">
           <folding />
         </state>
       </provider>
